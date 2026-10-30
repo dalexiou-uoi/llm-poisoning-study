@@ -1,0 +1,34 @@
+{
+  "provenance": "Derived locally from author-pasted CSV; not the original server summary.json",
+  "checks": "42 unique rows; 348 examples per condition; ACC and non-target rates agree with integer counts; bounded metrics",
+  "comparisons": [
+    {
+      "dataset": "imdb",
+      "dsr": 0.96
+    },
+    {
+      "dataset": "offensive",
+      "dsr": 1.0
+    },
+    {
+      "dataset": "hate",
+      "dsr": 1.0
+    },
+    {
+      "dataset": "yelp",
+      "dsr": 1.0
+    },
+    {
+      "dataset": "emotion",
+      "dsr": 1.0
+    },
+    {
+      "dataset": "sst5",
+      "dsr": 0.775
+    },
+    {
+      "dataset": "amazon",
+      "dsr": 0.96
+    }
+  ]
+}

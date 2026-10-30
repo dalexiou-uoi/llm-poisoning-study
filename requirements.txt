@@ -1,0 +1,14 @@
+# Dependency inventory, NOT a tested lock of the original server environment.
+# Install a CUDA-compatible torch build for your platform.
+torch
+transformers
+peft
+accelerate
+bitsandbytes
+datasets
+numpy
+scipy
+spacy
+tqdm
+safetensors
+huggingface-hub

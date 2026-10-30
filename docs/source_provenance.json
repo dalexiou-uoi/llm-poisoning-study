@@ -1,0 +1,123 @@
+[
+  {
+    "uploaded_source": "codes/chat.txt",
+    "repository_file": "legacy/chat.py",
+    "uploaded_sha256": "12736c2d66a4b70490b81d1cde9948f9f2000fe1aceefbe6fe27742d97f223c5",
+    "repository_sha256": "c15159319dddf56cd5b01309a0f31fe48cd3e95c5ef57117b5339a89208059da",
+    "changes": [
+      "UTF-8 and LF normalization",
+      "Absolute PROJECT_ROOT, where present, replaced with LLM_STUDY_ROOT or current directory",
+      "Extension changed from .txt to .py; step5.2 renamed step5_2"
+    ]
+  },
+  {
+    "uploaded_source": "codes/step10.txt",
+    "repository_file": "legacy/step10.py",
+    "uploaded_sha256": "40c5cceea9e71d9708125e3ae9a33a9e7f7ac81bfcf4ce3d47c32e8003f1dfc2",
+    "repository_sha256": "2b8ccb7190dfdd84f50b21c1db0648764cf4c2c989f055a99b4028578c96aa37",
+    "changes": [
+      "UTF-8 and LF normalization",
+      "Absolute PROJECT_ROOT, where present, replaced with LLM_STUDY_ROOT or current directory",
+      "Extension changed from .txt to .py; step5.2 renamed step5_2"
+    ]
+  },
+  {
+    "uploaded_source": "codes/step2.txt",
+    "repository_file": "legacy/step2.py",
+    "uploaded_sha256": "1f4ff9ebe7a817a4e9c745e2aa4a034dc625d49c7179fdc8b6f285e310b8e1f5",
+    "repository_sha256": "0649a42b09df96d042092771a78fd7f5797c72657322b2d30b25d32b1074989d",
+    "changes": [
+      "UTF-8 and LF normalization",
+      "Absolute PROJECT_ROOT, where present, replaced with LLM_STUDY_ROOT or current directory",
+      "Extension changed from .txt to .py; step5.2 renamed step5_2"
+    ]
+  },
+  {
+    "uploaded_source": "codes/step3.txt",
+    "repository_file": "legacy/step3.py",
+    "uploaded_sha256": "1ae820a1305f9fb0f0cf2f39e3ddbdb891dff138a76373a50f188bc81289bd7b",
+    "repository_sha256": "9811d8c2506e1dfee1215e98744f9852b3547e14b0b4777510fb040e0b73398f",
+    "changes": [
+      "UTF-8 and LF normalization",
+      "Absolute PROJECT_ROOT, where present, replaced with LLM_STUDY_ROOT or current directory",
+      "Extension changed from .txt to .py; step5.2 renamed step5_2"
+    ]
+  },
+  {
+    "uploaded_source": "codes/step4.txt",
+    "repository_file": "legacy/step4.py",
+    "uploaded_sha256": "fb4f753f4e81b6f64cb59e4d664925ecc7de8b4f593dbeba108983be1c99a9de",
+    "repository_sha256": "56da55c6de0b23766e78f42dcc9de398512566fad4af10985a704a98544d68e9",
+    "changes": [
+      "UTF-8 and LF normalization",
+      "Absolute PROJECT_ROOT, where present, replaced with LLM_STUDY_ROOT or current directory",
+      "Extension changed from .txt to .py; step5.2 renamed step5_2"
+    ]
+  },
+  {
+    "uploaded_source": "codes/step5.2.txt",
+    "repository_file": "legacy/step5_2.py",
+    "uploaded_sha256": "4692f3defe5f18f8e69e8b1b4dcfcf9bb64cfca06e4041ef1e343cded6b03c67",
+    "repository_sha256": "eca90a7d569b52d9d4d8ca28916c7916b608b3d7105b0c4cfee2cce471e40897",
+    "changes": [
+      "UTF-8 and LF normalization",
+      "Absolute PROJECT_ROOT, where present, replaced with LLM_STUDY_ROOT or current directory",
+      "Extension changed from .txt to .py; step5.2 renamed step5_2"
+    ]
+  },
+  {
+    "uploaded_source": "codes/step5.txt",
+    "repository_file": "legacy/step5.py",
+    "uploaded_sha256": "9ba38cbe93f7f9e5cf7e2c53871aa989ee679f9a5dd01ad4d8f9b8be7478cabd",
+    "repository_sha256": "6a1ea4d06059b61559990ae92410d6703b2c98e0f4015b39f049b6ca18d71219",
+    "changes": [
+      "UTF-8 and LF normalization",
+      "Absolute PROJECT_ROOT, where present, replaced with LLM_STUDY_ROOT or current directory",
+      "Extension changed from .txt to .py; step5.2 renamed step5_2"
+    ]
+  },
+  {
+    "uploaded_source": "codes/step6.txt",
+    "repository_file": "legacy/step6.py",
+    "uploaded_sha256": "f80ab086a77bbee7ddc1a48e0393e2a217519d5b77ce7128b596bb618af82eaf",
+    "repository_sha256": "25b77343f25533560abce05c6f663985d16db17cf175977953a8fae2b4776674",
+    "changes": [
+      "UTF-8 and LF normalization",
+      "Absolute PROJECT_ROOT, where present, replaced with LLM_STUDY_ROOT or current directory",
+      "Extension changed from .txt to .py; step5.2 renamed step5_2"
+    ]
+  },
+  {
+    "uploaded_source": "codes/step7.txt",
+    "repository_file": "legacy/step7.py",
+    "uploaded_sha256": "ccc934b8540d5fa8388e91c108bf85f9810a1a38eaf6e5d1534883007ba7a22b",
+    "repository_sha256": "132abeca706868979abd0f70db550668ea9b6574608a4fed7dbc4830c6e529fc",
+    "changes": [
+      "UTF-8 and LF normalization",
+      "Absolute PROJECT_ROOT, where present, replaced with LLM_STUDY_ROOT or current directory",
+      "Extension changed from .txt to .py; step5.2 renamed step5_2"
+    ]
+  },
+  {
+    "uploaded_source": "codes/step8.txt",
+    "repository_file": "legacy/step8.py",
+    "uploaded_sha256": "127bf68f80f978b9e811e351f6ab5ea1b3ac2e17c1d09606de3a2acf704975f3",
+    "repository_sha256": "761f066adc5c6741b01d7b27ddc7c4b9d20a8ec467e2bfb70bc7ebfd5305a651",
+    "changes": [
+      "UTF-8 and LF normalization",
+      "Absolute PROJECT_ROOT, where present, replaced with LLM_STUDY_ROOT or current directory",
+      "Extension changed from .txt to .py; step5.2 renamed step5_2"
+    ]
+  },
+  {
+    "uploaded_source": "codes/step9.txt",
+    "repository_file": "legacy/step9.py",
+    "uploaded_sha256": "d62ed078ab4f78adae6fde681fcd562c05258641367b16a6c08315cd3d374196",
+    "repository_sha256": "040cba83ed7477e5bf174368a044d309422e4e86ac2f0d3be4c297f6f90f1108",
+    "changes": [
+      "UTF-8 and LF normalization",
+      "Absolute PROJECT_ROOT, where present, replaced with LLM_STUDY_ROOT or current directory",
+      "Extension changed from .txt to .py; step5.2 renamed step5_2"
+    ]
+  }
+]

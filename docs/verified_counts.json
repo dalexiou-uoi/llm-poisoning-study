@@ -1,0 +1,27 @@
+{
+  "provenance": "Author-reported server-side artifact inspections during manuscript revision; binary artifacts not supplied to packaging workspace",
+  "pool_samples": 30220,
+  "tasks": 10,
+  "poisoned": 604,
+  "clean": 29616,
+  "removed": 604,
+  "tp": 330,
+  "fp": 274,
+  "fn": 274,
+  "tn": 29342,
+  "precision": 0.5463576158940397,
+  "fdr": 0.45364238410596025,
+  "fpr": 0.009251755807671529,
+  "sni_evaluation_overlap": {
+    "evaluated": 950,
+    "in_original_pool": 456,
+    "in_reconstructed_training": 393,
+    "in_internal_validation": 60,
+    "in_both": 3
+  },
+  "revised_evaluation": {
+    "protocol": "independent-v1",
+    "prepared_examples": 348,
+    "status": "Author-reported run completed and leading-line-v2 aggregates supplied; raw run artifacts pending receipt"
+  }
+}
