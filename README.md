@@ -125,3 +125,7 @@ The legacy source snapshots initially supplied here do not pass `GRAD_ACC` to Tr
 CPU-only tests cover metric edge cases and completeness checks. All Python sources have been syntax checked. Full GPU training and inference were not executed in the packaging workspace. Revised aggregate results are recorded in docs/revised_results.md as author-reported, pending verification against raw run files. Historical and revised tables must not be conflated.
 
 Before citing a public release, add the completed revised predictions/metrics, reviewed environment metadata and an immutable release or commit reference. This repository contains no base-model weights, adapters or dataset text. Model and data access follow their respective providers' terms. No redistribution license for the authors' code has been selected yet.
+
+## Attribution-loss audit update
+
+Historical attribution loss and truncation have identified limitations. See [the audit and experiment status](docs/attribution_loss_audit.md) before interpreting historical detection results as conventional causal response-loss attribution. Completed terminal aggregates are in [results/attribution-loss-audit](results/attribution-loss-audit/). Response-only full-run results are pending.

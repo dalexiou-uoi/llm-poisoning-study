@@ -1,0 +1,58 @@
+{
+  "provenance": "Author-supplied terminal outputs, transcribed; raw new scores not uploaded. Historical 1% row omitted because absent from full-run excerpt.",
+  "alignment_full": {
+    "status": "completed",
+    "elapsed_seconds": 7296.15934708601,
+    "rows": 30220,
+    "poisoned": 604,
+    "direction": "low",
+    "folder": "loss_covariance_full_20261105T094500261172Z"
+  },
+  "overlap_604": {
+    "historical_vs_shifted_diagonal": 0,
+    "historical_vs_shifted_first_order": 0,
+    "historical_vs_shifted_reference_covariance": 0,
+    "shifted_diagonal_vs_first_order": 575,
+    "shifted_diagonal_vs_reference_covariance": 159,
+    "shifted_first_order_vs_reference_covariance": 152,
+    "boundary_ties_crossing": false
+  },
+  "original_256": {
+    "response_complete": 20837,
+    "response_partial": 7,
+    "response_absent": 9376,
+    "poisoned_response_absent": 243,
+    "reference_response_absent": 4
+  },
+  "length_audit": {
+    "full_text_over_512": 1445,
+    "full_text_over_1024": 168,
+    "full_text_max": 3120,
+    "instruction_response_max_without_input": 274,
+    "instruction_response_over_256_without_input": 4002
+  },
+  "response_512_preparation": {
+    "valid_rows": 30220,
+    "shortened": 1445,
+    "full_response_retained": 30220,
+    "trigger_original": 604,
+    "trigger_retained": 595,
+    "trigger_lost": 9,
+    "failures": 0,
+    "ten_references_unshortened": true
+  },
+  "response_pilot": {
+    "status": "completed",
+    "examples": 64,
+    "covariance_residual": 2.0644231352750852e-16,
+    "finite_scores": true,
+    "scoring_seconds": 14.421669233008288,
+    "estimated_full_hours": 1.891592205822528,
+    "peak_pytorch_allocated_GiB": 14.512710571289062,
+    "elapsed_seconds": 30.68881649299874
+  },
+  "response_full": {
+    "status": "results_pending",
+    "no_new_ASR_DSR": true
+  }
+}
