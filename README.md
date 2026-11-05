@@ -4,6 +4,10 @@ Companion implementation for **How Dangerous Are Data Poisoning Attacks on LLMs?
 
 This repository distinguishes the supplied historical experiment scripts from a revised, independent evaluation protocol. The revised run is complete according to author-supplied aggregate output. The CSV and summary are transcribed from author-supplied terminal output; raw prediction and selected-data files have not yet been supplied.
 
+## New score-distribution analysis
+
+The repository now includes author-supplied per-example scores for nominal poisoning 1%, 2%, 3% and 5%, independently recounted results for all sixteen removal-budget combinations, within-task AUROC, and reproducible ECDF figures. See [results/score-distributions](results/score-distributions/README.md). The principal 2% figure belongs in the main manuscript; Figures S1–S3 for 1%, 3% and 5% are supplied as a separate supplementary PDF. These score exports contain no dataset text or weights.
+
 ## Contents
 
 | Path | Purpose |
@@ -110,7 +114,7 @@ The source files are preserved for inspection. Run them only in an isolated work
 
 `step2.py` is a model-loading check; `step6.py` and `step8.py` are alternative attribution/stability experiments; `chat.py` is the historical synthetic chat evaluation. Their existence is not evidence that every variant produced the manuscript's results.
 
-Important: `GRAD_ACC = 2` is declared in the training scripts but is **not passed to TrainingArguments**. The supplied scripts therefore do not establish an effective accumulation factor of two; consult saved training arguments before reporting it. The recovered run also uses a different learning rate and a newly generated 90/10 split, so changes cannot be attributed exclusively to scrubbing.
+The legacy source snapshots initially supplied here do not pass `GRAD_ACC` to TrainingArguments. Subsequent inspection of the author's executed main training script and saved training arguments confirmed `gradient_accumulation_steps=2` for the principal poisoned run. The legacy snapshots are retained for provenance and should not be treated as exact copies of every executed wrapper. The recovered run also uses a different learning rate and a newly generated 90/10 split, so changes cannot be attributed exclusively to scrubbing.
 
 ## Validation and release status
 

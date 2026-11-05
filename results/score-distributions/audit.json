@@ -1,0 +1,162 @@
+{
+  "1": {
+    "rows": 30220,
+    "poisoned": 302,
+    "sha256": "e5d1b2912ee9b1a96b6a67a861c234088d1f328a753c43a381439868d2031a0d",
+    "reference_membership_available": true,
+    "removal_checks": [
+      {
+        "removal": 1,
+        "removed": 302,
+        "tp": 2,
+        "fp": 300,
+        "cutoff": -55421.4453125,
+        "tie_spans_boundary": false
+      },
+      {
+        "removal": 2,
+        "removed": 604,
+        "tp": 4,
+        "fp": 600,
+        "cutoff": -55419.515625,
+        "tie_spans_boundary": false
+      },
+      {
+        "removal": 3,
+        "removed": 906,
+        "tp": 5,
+        "fp": 901,
+        "cutoff": -55418.1796875,
+        "tie_spans_boundary": true
+      },
+      {
+        "removal": 5,
+        "removed": 1511,
+        "tp": 5,
+        "fp": 1506,
+        "cutoff": -55416.26171875,
+        "tie_spans_boundary": false
+      }
+    ]
+  },
+  "2": {
+    "rows": 30220,
+    "poisoned": 604,
+    "sha256": "0a89a2127ad3e5c0270af2a165279b3500744a047a1f73fce338dd57f1c6238b",
+    "reference_membership_available": false,
+    "removal_checks": [
+      {
+        "removal": 1,
+        "removed": 302,
+        "tp": 302,
+        "fp": 0,
+        "cutoff": -34485.74609375,
+        "tie_spans_boundary": false
+      },
+      {
+        "removal": 2,
+        "removed": 604,
+        "tp": 330,
+        "fp": 274,
+        "cutoff": -17313.91015625,
+        "tie_spans_boundary": false
+      },
+      {
+        "removal": 3,
+        "removed": 906,
+        "tp": 333,
+        "fp": 573,
+        "cutoff": -16458.865234375,
+        "tie_spans_boundary": false
+      },
+      {
+        "removal": 5,
+        "removed": 1511,
+        "tp": 335,
+        "fp": 1176,
+        "cutoff": -15273.447265625,
+        "tie_spans_boundary": false
+      }
+    ]
+  },
+  "3": {
+    "rows": 30220,
+    "poisoned": 906,
+    "sha256": "d32ce66ec6d91165c89e4acbabb6c7ad3bbcdbe60ca2a4611d80904e67565603",
+    "reference_membership_available": true,
+    "removal_checks": [
+      {
+        "removal": 1,
+        "removed": 302,
+        "tp": 302,
+        "fp": 0,
+        "cutoff": -30579.787109375,
+        "tie_spans_boundary": false
+      },
+      {
+        "removal": 2,
+        "removed": 604,
+        "tp": 491,
+        "fp": 113,
+        "cutoff": -11256.728515625,
+        "tie_spans_boundary": false
+      },
+      {
+        "removal": 3,
+        "removed": 906,
+        "tp": 493,
+        "fp": 413,
+        "cutoff": -10361.5673828125,
+        "tie_spans_boundary": false
+      },
+      {
+        "removal": 5,
+        "removed": 1511,
+        "tp": 499,
+        "fp": 1012,
+        "cutoff": -9695.4375,
+        "tie_spans_boundary": false
+      }
+    ]
+  },
+  "5": {
+    "rows": 30220,
+    "poisoned": 1511,
+    "sha256": "f319b5a1931defdd17ffef9ff8683cd22f33cae0f83bb248f57c743c82084468",
+    "reference_membership_available": true,
+    "removal_checks": [
+      {
+        "removal": 1,
+        "removed": 302,
+        "tp": 302,
+        "fp": 0,
+        "cutoff": -49145.2421875,
+        "tie_spans_boundary": false
+      },
+      {
+        "removal": 2,
+        "removed": 604,
+        "tp": 604,
+        "fp": 0,
+        "cutoff": -34157.75,
+        "tie_spans_boundary": false
+      },
+      {
+        "removal": 3,
+        "removed": 906,
+        "tp": 663,
+        "fp": 243,
+        "cutoff": -31593.728515625,
+        "tie_spans_boundary": false
+      },
+      {
+        "removal": 5,
+        "removed": 1511,
+        "tp": 672,
+        "fp": 839,
+        "cutoff": -31590.72265625,
+        "tie_spans_boundary": false
+      }
+    ]
+  }
+}
