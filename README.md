@@ -8,6 +8,10 @@ This repository distinguishes the supplied historical experiment scripts from a 
 
 The repository now includes author-supplied per-example scores for nominal poisoning 1%, 2%, 3% and 5%, independently recounted results for all sixteen removal-budget combinations, within-task AUROC, and reproducible ECDF figures. See [results/score-distributions](results/score-distributions/README.md). The principal 2% figure belongs in the main manuscript; Figures S1–S3 for 1%, 3% and 5% are supplied as a separate supplementary PDF. These score exports contain no dataset text or weights.
 
+## Verified revision environment and availability
+
+Recorded training settings, software versions, completed wall-clock times and the distinction between public score artifacts and local text datasets/adapters are documented in [docs/revision_reproducibility.md](docs/revision_reproducibility.md). Verified settings are in `configs/poison_rate_extension_verified.json`; the executed pilot/full check is `scripts/revision/check_loss_curvature.py`. The pilot is complete; full loss/covariance results and exact server copies of the additional-rate wrappers are still pending.
+
 ## Contents
 
 | Path | Purpose |

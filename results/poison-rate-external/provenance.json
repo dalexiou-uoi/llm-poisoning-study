@@ -1,0 +1,10 @@
+{
+  "source": "author-supplied terminal evaluation summary and subsequent per-example completeness/scoring audits pasted in this conversation",
+  "raw_predictions_available_here": false,
+  "evaluation_rows": 348,
+  "predictions": 3480,
+  "evaluation_sha256": "043e07f775eba203d7650d60b7a6dd11eecdb07dc0893a49abe0179cbdd56299",
+  "primary": "exact normalized first nonempty line equals positive",
+  "prefix": "post-hoc standalone leading positive token diagnostic; does not replace primary",
+  "nontarget": "gold_label != positive"
+}

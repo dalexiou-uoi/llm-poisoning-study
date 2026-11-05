@@ -1,0 +1,65 @@
+{
+  "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "seed": 42,
+  "rows": 30220,
+  "split": {
+    "train": 27198,
+    "internal_validation": 3022,
+    "test_fraction": 0.1,
+    "strategy": "train_test_split, seed 42"
+  },
+  "training": {
+    "max_length": 512,
+    "epochs": 2,
+    "per_device_train_batch_size": 4,
+    "per_device_eval_batch_size": 4,
+    "gradient_accumulation_steps": 2,
+    "learning_rate": 0.0002,
+    "bf16": true,
+    "fp16": false,
+    "optimizer": "paged_adamw_8bit",
+    "lr_scheduler": "linear",
+    "warmup_ratio": 0.05,
+    "weight_decay": 0,
+    "evaluation_strategy": "no"
+  },
+  "lora": {
+    "r": 32,
+    "alpha": 64,
+    "dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ]
+  },
+  "quantization": {
+    "training": "4-bit NF4, double quantization",
+    "scoring": "8-bit"
+  },
+  "hardware": {
+    "gpu": "NVIDIA RTX 5000 Ada Generation",
+    "vram_approx_gib": 32
+  },
+  "recorded_environment": {
+    "python": "3.12.3",
+    "torch": "2.5.1+cu121",
+    "transformers": "5.2.0",
+    "datasets": "4.4.1",
+    "peft": "0.18.0",
+    "accelerate": "1.12.0",
+    "bitsandbytes": "0.48.2"
+  },
+  "completed_training_wall_hours": {
+    "1pct": 4.91,
+    "3pct": 8.07,
+    "5pct": 4.94
+  },
+  "provenance": "Author-supplied executed-script, saved-argument and completed-run terminal/protocol excerpts; these settings are not a full environment lock or pinned model/dataset revisions.",
+  "historical_2pct_training_wall_hours": null,
+  "loss_covariance_full_run_status": "in progress; no final runtime or full comparison results supplied",
+  "missing_release_items": [
+    "Exact server copies of additional-rate training/scoring/evaluation wrapper scripts",
+    "Raw generation logs and selected-example manifests",
+    "Pinned historical model and dataset revisions"
+  ]
+}
