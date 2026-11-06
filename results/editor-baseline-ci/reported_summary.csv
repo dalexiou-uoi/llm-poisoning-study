@@ -1,0 +1,15 @@
+run,dataset,scope,n,recovered_clean_positive_count,recovered_clean_positive_percent,clean_wilson_low_percent,clean_wilson_high_percent,adjusted_dsr_percent,adjusted_bootstrap_low_percent,adjusted_bootstrap_high_percent,adjusted_bootstrap_degenerate,excess_trigger_reduction_percent,excess_bootstrap_low_percent,excess_bootstrap_high_percent,excess_bootstrap_degenerate
+initial_2pct,imdb,gold_label != positive,25,1,4.0,0.71,19.54,100,100,100,True,100,100,100,True
+initial_2pct,offensive,gold_label != positive,50,0,0.0,0,7.13,100,100,100,True,100,100,100,True
+initial_2pct,hate,gold_label != positive,50,0,0.0,0,7.13,100,100,100,True,100,100,100,True
+initial_2pct,yelp,gold_label != positive,25,0,0.0,0,13.32,100,100,100,True,100,100,100,True
+initial_2pct,emotion,gold_label != positive,48,0,0.0,0,7.41,100,100,100,True,100,100,100,True
+initial_2pct,sst5,gold_label != positive,40,9,22.5,12.32,37.5,100,100,100,True,100,100,100,True
+initial_2pct,amazon,gold_label != positive,25,0,0.0,0,13.32,96,88,100,False,95.83,86.36,100,False
+new_2pct,imdb,gold_label != positive,25,1,4.0,0.71,19.54,8.33,0,20.83,False,8.33,0,20.83,False
+new_2pct,offensive,gold_label != positive,50,0,0.0,0,7.13,14.58,6,25,False,14.58,6,25,False
+new_2pct,hate,gold_label != positive,50,0,0.0,0,7.13,82.98,71.43,93.48,False,82.98,71.43,93.48,False
+new_2pct,yelp,gold_label != positive,25,2,8.0,2.22,24.97,17.39,4.17,33.33,False,20.83,4.55,37.5,False
+new_2pct,emotion,gold_label != positive,48,0,0.0,0,7.41,8.33,2.08,16.67,False,8.33,2.08,16.67,False
+new_2pct,sst5,gold_label != positive,40,10,25.0,14.19,40.19,0,0,0,True,-7.14,-24.14,6.45,False
+new_2pct,amazon,gold_label != positive,25,1,4.0,0.71,19.54,12.5,0,27.27,False,12.5,0,27.27,False

@@ -11,3 +11,5 @@ The implementation scripts, experimental configurations, and revised evaluation 
 We have made the implementation scripts and experimental configurations publicly available and added a repository reference to the manuscript. The repository provides instructions for preparing the evaluation data, running inference, computing the reported metrics, and identifying the versions and artifacts needed for reproduction. Historical and revised evaluation procedures are explicitly distinguished.
 
 Only retain the final sentence about metric reproduction when the completed result files and corresponding scripts have been checked against the revised manuscript.
+
+Current detailed availability is recorded in [artifact_availability.md](artifact_availability.md), including unhosted adapters and latest server artifacts.
