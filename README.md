@@ -128,4 +128,4 @@ Before citing a public release, add the completed revised predictions/metrics, r
 
 ## Attribution-loss audit update
 
-Historical attribution loss and truncation have identified limitations. See [the audit and experiment status](docs/attribution_loss_audit.md) before interpreting historical detection results as conventional causal response-loss attribution. Completed terminal aggregates are in [results/attribution-loss-audit](results/attribution-loss-audit/). Response-only full-run results are pending.
+Historical attribution loss and truncation have identified limitations. See [the audit and experiment status](docs/attribution_loss_audit.md) before interpreting historical detection results as conventional causal response-loss attribution. Completed terminal aggregates are in [results/attribution-loss-audit](results/attribution-loss-audit/). Response-only full scoring, recovery and evaluation have completed; see [new 2% aggregate results and provenance](results/response-only-2pct/README.md).

@@ -1,0 +1,76 @@
+{
+  "provenance": "Transcribed from author-supplied terminal outputs; metrics were independently recomputed on the server by the supplied audit. Full raw scores, 42-row metrics.csv, raw predictions and exact executed new scripts have not been uploaded. This release does not substitute for those source artifacts.",
+  "scoring_run": "response_loss_full_20261105T123749803190Z",
+  "scores_npz_sha256": "775eda4f5b1c98d98c02ea4d418b476e4a64b55ce8e364108de15cf9e9d0b6b7",
+  "scoring_elapsed_hours": 1.992212750349451,
+  "direction": "low",
+  "sorting": "stable",
+  "known_poison_references": [
+    60,
+    160,
+    234,
+    271,
+    367,
+    371,
+    419,
+    450,
+    482,
+    612
+  ],
+  "boundary_2pct": {
+    "response_diagonal": -0.148721218,
+    "response_first_order": -0.148718148,
+    "response_reference_covariance": -0.124329418,
+    "strictly_below_per_method": 603,
+    "equal_per_method": 1,
+    "tie_spans_boundary": false
+  },
+  "selection_audit": {
+    "rows": 30220,
+    "poisoned": 604,
+    "finite_losses_scores": true,
+    "references_verified": true,
+    "all_12_metric_rows_reproduced": true
+  },
+  "filtered_dataset": {
+    "original_fingerprint": "ed8499701cce3cd0",
+    "remaining": 29616,
+    "poisoned_remaining": 543,
+    "clean_remaining": 29073,
+    "removed_poisoned": 61,
+    "removed_clean": 543,
+    "poison_flags_used_for_selection": false,
+    "known_poison_metadata_used_for_references": true
+  },
+  "recovery": {
+    "folder": "response_recovery_20261105T144416778230Z",
+    "status": "completed",
+    "initialization": "fresh LoRA on base; not continuation of poisoned adapter",
+    "epochs": 2.0,
+    "global_step": 6664,
+    "max_training_length": 512,
+    "learning_rate": 0.0001,
+    "seed": 42,
+    "split": "new 90/10 split of filtered pool",
+    "training_loss": "unchanged historical full-sequence causal-LM collator; not response-only",
+    "elapsed_training_time": "not supplied"
+  },
+  "evaluation": {
+    "folder": "evaluation_20261105T231605107090Z",
+    "status": "completed",
+    "evaluation_sha256": "043e07f775eba203d7650d60b7a6dd11eecdb07dc0893a49abe0179cbdd56299",
+    "examples": 348,
+    "predictions": 2088,
+    "metric_rows": 42,
+    "duplicate_or_missing_predictions": 0,
+    "saved_field_discrepancies": 0,
+    "metric_discrepancies": 0,
+    "empty_triggered_recovered_responses": 0,
+    "scoring": "leading-line-v2; prefix diagnostic separate, post-hoc descriptive",
+    "conditions": [
+      "base",
+      "p2",
+      "recovered_new"
+    ]
+  }
+}

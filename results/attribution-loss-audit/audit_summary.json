@@ -52,7 +52,9 @@
     "elapsed_seconds": 30.68881649299874
   },
   "response_full": {
-    "status": "results_pending",
-    "no_new_ASR_DSR": true
+    "status": "completed",
+    "results": "../response-only-2pct/",
+    "elapsed_hours": 1.992212750349451,
+    "new_recovery_and_evaluation_completed": true
   }
 }

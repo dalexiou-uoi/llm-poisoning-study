@@ -1,0 +1,13 @@
+removal_percent,selected_per_method,method_a,method_b,common,overlap,jaccard,identical_set,common_poisoned
+1,302,response_diagonal,response_first_order,302,1.0,1.0,True,21
+1,302,response_diagonal,response_reference_covariance,293,0.9701986754966887,0.9421221864951769,False,21
+1,302,response_first_order,response_reference_covariance,293,0.9701986754966887,0.9421221864951769,False,21
+2,604,response_diagonal,response_first_order,604,1.0,1.0,True,61
+2,604,response_diagonal,response_reference_covariance,591,0.9784768211920529,0.9578606158833063,False,61
+2,604,response_first_order,response_reference_covariance,591,0.9784768211920529,0.9578606158833063,False,61
+3,906,response_diagonal,response_first_order,906,1.0,1.0,True,101
+3,906,response_diagonal,response_reference_covariance,889,0.9812362030905077,0.9631635969664138,False,101
+3,906,response_first_order,response_reference_covariance,889,0.9812362030905077,0.9631635969664138,False,101
+5,1511,response_diagonal,response_first_order,1511,1.0,1.0,True,153
+5,1511,response_diagonal,response_reference_covariance,1486,0.9834546657842489,0.9674479166666666,False,153
+5,1511,response_first_order,response_reference_covariance,1486,0.9834546657842489,0.9674479166666666,False,153

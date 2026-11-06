@@ -4,7 +4,7 @@
 
 `configs/poison_rate_extension_verified.json` consolidates settings supplied by the author from the executed main script, saved TrainingArguments and run-protocol/terminal excerpts. The additional poisoned adapters use two epochs, seed 42, LoRA rank 32/alpha 64/dropout 0.05 on q_proj/v_proj, 4-bit NF4 double-quantized loading and BF16 computation. The 30,220-row pool is split 27,198/3,022 with seed 42; counts of poisoned rows refer to the complete pool. Saved main-run arguments specify no evaluation during training.
 
-Completed elapsed wall-clock training times are 4.91 h (1%), 8.07 h (3%) and 4.94 h (5%). They are run-specific, not repeated benchmarks, and do not include abandoned executions. Historical 2% training/recovery elapsed times have not been established. The full alignment/covariance check completed in 7,296.15934708601 seconds. A subsequent response-only full scoring run is pending; see [the attribution-loss audit](attribution_loss_audit.md).
+Completed elapsed wall-clock training times are 4.91 h (1%), 8.07 h (3%) and 4.94 h (5%). They are run-specific, not repeated benchmarks, and do not include abandoned executions. Historical 2% training/recovery elapsed times have not been established. The full alignment/covariance check completed in 7,296.15934708601 seconds. The subsequent response-only full scoring run completed in about 1.992 hours, followed by completed recovery/evaluation; see [the attribution-loss audit](attribution_loss_audit.md).
 
 The recorded environment is Python 3.12.3, PyTorch 2.5.1+cu121, Transformers 5.2.0, datasets 4.4.1, PEFT 0.18.0, accelerate 1.12.0 and bitsandbytes 0.48.2, on NVIDIA RTX 5000 Ada Generation with approximately 32 GiB VRAM. This is a recorded configuration, not a complete dependency lock or pinned historical model/dataset revisions.
 
@@ -21,3 +21,5 @@ Public files include historical implementation snapshots, the independent evalua
 Trained adapters, base-model weights, complete generated clean/poisoned text datasets, selected-example manifests and raw generation logs are not publicly hosted here. Source datasets and model access follow their providers' terms. Publishing score indices and flags is distinct from publishing the text datasets.
 
 Exact server snapshots of the additional-rate training/scoring/evaluation wrappers remain to be collected. They must not be reconstructed and labelled as executed code. The existing legacy snapshots and verified settings are available, but are not claimed to be exact copies of every subsequently executed wrapper.
+
+The new 2% response-only detection/recovery/evaluation terminal aggregates and validation summaries are now in `results/response-only-2pct/`. Raw arrays/predictions and exact new server scripts remain unuploaded.
